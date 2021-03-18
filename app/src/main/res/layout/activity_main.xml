@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100">
+
+        <TextView
+            android:text="left"
+            android:layout_height="10sp"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:background="@color/teal_200"
+            android:layout_weight="16.77"
+            tools:ignore="Suspicious0dp" />
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:text="CustomerName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".30" />
+        <EditText
+            android:id="@+id/edUsername"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".70" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:text="Email Address"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".30" />
+        <EditText
+            android:id="@+id/edEmail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".70" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:text="Phone Number"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".30" />
+        <EditText
+            android:id="@+id/edPhone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".70" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:text="Gender"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".30" />
+        <RadioGroup
+            android:id="@+id/grGender"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingRight="8dp"
+            android:layout_weight=".70"
+            >
+            <RadioButton
+                android:id="@+id/radioM"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:checked="true"
+                android:layout_weight="1"
+                android:textSize="14dp"
+                android:text="Male"
+                />
+            <RadioButton
+                android:id="@+id/radioF"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:checked="false"
+                android:layout_weight="1"
+                android:textSize="14dp"
+                android:text="Female"
+                />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/add"
+            android:layout_height="60dp"
+            android:layout_width="150dp"
+            android:text="ADD "
+            android:backgroundTint="#B1B1B1"
+            />
+
+        <Button
+            android:backgroundTint="#B1B1B1"
+            android:layout_marginLeft="63dp"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/search"
+            android:layout_height="60dp"
+            android:layout_width="200dp"
+            android:text="SEARCH " />
+            />
+
+    </LinearLayout>
+</LinearLayout>
