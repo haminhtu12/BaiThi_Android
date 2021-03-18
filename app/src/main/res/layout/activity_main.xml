@@ -6,13 +6,13 @@
     android:weightSum="100">
 
         <TextView
-            android:text="left"
+            android:textAlignment="viewStart"
+            android:text="USING LTE"
             android:layout_height="10sp"
             android:layout_width="match_parent"
             android:gravity="center"
-            android:background="@color/teal_200"
             android:layout_weight="16.77"
-            tools:ignore="Suspicious0dp" />
+            tools:ignore="RtlCompat,Suspicious0dp" />
 
     <LinearLayout
         android:layout_marginTop="10dp"
